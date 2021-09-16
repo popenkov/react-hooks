@@ -1,11 +1,5 @@
-import React from "react";
-import { AlertContext } from "./alertState";
+import { createContext } from "react/cjs/react.development";
 
-export const AlertState = () => {
 
-    return (
-        <AlertContext.Provider>
-            
-        </AlertContext.Provider>
-    )
-}
+export const AlertContext = createContext()
+
